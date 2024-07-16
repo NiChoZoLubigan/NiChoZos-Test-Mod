@@ -1,0 +1,10 @@
+{
+    "type": "material",
+    "name": "Jank Steel",
+    "description": "a steel made from dingusium and mixed metals in form of a scrap",
+    "hardness": 3,
+    "flammability": 1,
+    "explosivness": 1,
+    "cost": 50.0,
+    "color": "2b002b"
+}
