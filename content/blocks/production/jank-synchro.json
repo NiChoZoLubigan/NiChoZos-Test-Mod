@@ -1,0 +1,55 @@
+{
+    "type": "GenericCrafter",
+    "name": "Jank Synchronizer",
+    "description": "Synchronize Dingusium and Scrap with Water as catalyst. Spits Coal as byproduct",
+    "liquidCapacity": 50,
+    "outputItems": [
+        { "item": "jank-steel", "amount": 1 },
+        { "item": "coal", "amount": 3 }
+    ],
+    "size": 3,
+    "itemCapacity": 30,
+    "hasPower": true,
+    "hasLiquid": true,
+    "hasItems": true,
+    "craftTime": 300,
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "DrawDefault"
+            },
+            {
+                "type": "DrawFlame",
+                "suffix": "-top"
+                "color": "f799f7"
+            }
+        ]
+    },
+    "updateEffect": "smeltsmoke",
+    "consumes": {
+        "power": 1.0,
+        "items": {
+            "items": [
+                { "item": "dingusium", "amount": 3 },
+                { "item": "scrap", "amount": 2 }
+            ]
+        },
+        "liquid": {
+            "liquid": "water",
+            "amount": 3.0
+        }
+    },
+    "requirements": [
+        { "item": "silicon", "amount": 100 },
+        { "item": "dingusium", "amount": 150 },
+        { "item": "surge-alloy", "amount": 150 }
+    ],
+    "category": "crafting",
+    "research": {
+        "research": "dingus-infuser",
+        "research": "surge-alloy"
+    },
+    "ambientSound": "techloop",
+    "ambientSoundVolume": 0.4
+}
