@@ -1,0 +1,30 @@
+{
+    "type": "GenericCrafter",
+    "name": "dingus-infuser",
+    "description": "combines copper and silicon to make the most jankiest metal on...... whatever.",
+    "outputItem": {"item": "dingusium", "amount": 2},
+    "size": 2,
+    "hasPower": true,
+    "hasLiquid": false,
+    "hasItem": true,
+    "craftTime": 75,
+    "consumes": {
+        "power": 1.0
+        "items": {
+            "items":[
+                { "item": "copper", "amount": 2 }
+                { "item": "silicon", "amount": 2 }
+            ]
+        }
+    },
+    "requirements":[
+        { "item": "lead", "amount": 80 },
+        { "item": "coal", "amount": 50 },
+        { "item": "silicon", "amount": 90 }
+    ],
+    "category": "crafting",
+    "craftEffect": "pulverizeMedium",
+    "research": "silicon-crucible",
+    "idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
