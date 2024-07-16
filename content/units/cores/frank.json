@@ -1,0 +1,58 @@
+{
+    "type": "flying",
+    "name": "[red]frank",
+    "description": "frank, you stupid shit.",
+    "speed": 9,
+    "buildSpeed": 0.1,
+    "mineSpeed": 5,
+    "mineTier": 1,
+    "canAttack": false,
+    "armor": 30,
+    "coreUnitDock": true,
+    "health": 10000,
+    "flying": true,
+    "itemCapacity": 10,
+    "hitSize": 1,
+    "drawBuildBeam": true,
+    "lowAltitude": true,
+    "weapons": [
+        {
+            "name": "repair-laser-weapon",
+            "x": 0,
+            "y": 5,
+            "reload": 4,
+            "shootSound": "lasershoot",
+            "bullet": {
+                "type": "LaserBoltBulletType",
+                "speed": 6,
+                "damage": 75,
+                "mixColorFrom": "ffffff",
+                "mixColorTo": "8b008b",
+                "homingRange": 90,
+                "homingPower": 0.5,
+                "hitEffect": {
+                    "type": "MultiEffect",
+                    "effects": [
+                        {
+                            "type": "WaveEffect",
+                            "colorFrom": "8b008b",
+                            "colorTo": "2b002b",
+                            "rotation": 9,
+                            "sizeFrom": 0,
+                            "sizeTo": 5
+                        },
+                        {
+                            "type": "WaveEffect",
+                            "colorFrom": "2b002b",
+                            "colorTo": "8b008b",
+                            "rotation": 9,
+                            "sizeFrom": 5,
+                            "sizeTo": 0
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "research": "alpha"
+}
