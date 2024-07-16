@@ -1,0 +1,9 @@
+{
+	"type": "material",
+	"name": "Dingusium",
+	"description": "A Very Janky Resource.",
+	"cost": 10.0,
+    "hardness": 2,
+	"color": "8b008b",
+    "allwaysUnlocked": true
+}
