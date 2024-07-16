@@ -7,4 +7,4 @@ no seriously how?
 **chat me on Discord:** *yportnenert*
 
 ##### Here's my Youtube, it's empty.
-[Click for Free Clicks.](https://www.youtube.com/@aguyfullofsynonyms)
+[Click Here for Free Clicks.](https://www.youtube.com/@aguyfullofsynonyms)
