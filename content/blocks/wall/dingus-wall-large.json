@@ -1,0 +1,13 @@
+{
+    "name": "Large Dingusium Wall",
+    "type": "Wall",
+    "description": "a BIG wall out of jank.",
+    "health": 1000,
+    "size": 2,
+    "requirements": [
+        { "item": "dingusium", "amount": 60 },
+        { "item": "silicon", "amount": 40 }
+    ],
+    "category": "defense",
+    "research": "dingus-wall"
+}
