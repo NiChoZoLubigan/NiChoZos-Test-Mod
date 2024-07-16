@@ -1,0 +1,31 @@
+{
+    "type": "CoreBlock",
+    "name": "Core: Filth",
+    "description": "eww stinky, smelly house",
+    "size": 3,
+    "health": 10000,
+    "researchCostMultiplier": 0.2,
+    "itemCapacity": 9000,
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 1000
+        },
+        {
+            "item": "lead",
+            "amount": 1000
+        },
+        {
+            "item": "silicon",
+            "amount": 2000
+        },
+        {
+            "item": "dingusium",
+            "amount": 2500
+        },
+    ],
+    "category": "effect",
+    "research": "coreShard",
+    "unitType": "frank",
+    "unitCapModifier": 12
+}
