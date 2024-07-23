@@ -24,7 +24,7 @@
     ],
     "category": "crafting",
     "craftEffect": "pulverizeMedium",
-    "research": "silicon-crucible",
+    "research": "graphite-press",
     "idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }
